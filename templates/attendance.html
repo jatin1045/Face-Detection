@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Attendance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        button[type="submit"] {
+            width: 200px;
+            height: 40px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+        a {
+            text-decoration: none;
+            color: #337ab7;
+            margin-top: 20px;
+            display: block;
+        }
+        a:hover {
+            color: #23527c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mark Attendance</h1>
+    <form action="/attendance" method="POST">
+        <button type="submit">Start Face Recognition</button>
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>
